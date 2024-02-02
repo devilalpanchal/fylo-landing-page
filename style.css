@@ -204,7 +204,7 @@ body {
 .section-04 {
     display: flex;
     gap: 400px;
-    height: 400px;
+    height: 370px;
     padding-top: 150px;
     background-color: #575989;
 }
@@ -275,7 +275,7 @@ body {
 
 .fotter1 {
     display: flex;
-    height: 500px;
+    height: 420px;
     padding-top : 180px;
     justify-content: left;
     gap: 200px;
