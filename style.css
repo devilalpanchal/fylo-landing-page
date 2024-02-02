@@ -5,7 +5,12 @@
 }
 
 .main-content {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;  
+}
+.sec1tosec3{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;      
 }
 
 body {
@@ -27,7 +32,7 @@ body {
 
 .header1 {
     display: flex;
-    gap: 770px;
+    gap: 810px;
 }
 
 .sec2-right-header-p1>p:hover,
@@ -42,18 +47,19 @@ body {
 }
 
 .image1 {
-    width: 120px;
+    width: 160px;
 }
 
 /********************* section 2 *********************/
 
 .image2 {
-    width: 500px;
-    height: 280px;
+    width: 520px;
+    height: 320px;
 }
 
 .header2 {
     display: flex;
+
 }
 
 .sec2-left-header-p1 {
@@ -98,9 +104,7 @@ body {
 .middle {
     display: flex;
     bottom: 0;
-    gap: 250px;
-    margin-top: 90px;
-
+    gap: 280px;
 }
 
 .arrow:hover {
@@ -112,9 +116,8 @@ body {
 }
 
 .image4 {
-    width: 450px;
+    width: 520px;
     height: 350px;
-    margin-top: 10px;
 }
 
 .mid-sec1-p1 {
@@ -154,7 +157,6 @@ body {
     border: 1px rgb(240, 231, 231) solid;
     padding: 1rem;
     background-color: #FFFFFF;
-    margin-top: 25px;
     border-radius: 12px;
     width: 270px;
 }
@@ -191,12 +193,12 @@ body {
     font-size: 12px;
 }
 
+/************************** Section04 ********************************/
 .section-04 {
     display: flex;
     gap: 400px;
-    height: 180px;
+    height: 210px;
     padding-top: 35px;
-    margin-top: 0px;
     background-color: #575989;
 }
 
@@ -266,6 +268,7 @@ body {
 
 .fotter1 {
     display: flex;
+    height: 280px;
     justify-content: left;
     gap: 200px;
     color: white;
@@ -337,6 +340,25 @@ body {
 .term:hover,
 .privacy:hover {
     border-bottom: 1px white solid;
+}
+.footer {
+    background-color: rgb(131, 131, 131);
+    color: hsl(219, 29%, 14%);
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.attribution a {
+    color: blue;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: none;
+    color: aqua;
 }
 
 @media screen and (max-width: 375px) {
@@ -574,23 +596,4 @@ body {
     .section-03 {
     background-image: url('./images/bg-curve-desktop.svg');
     }
-}
-.footer {
-    background-color: rgb(131, 131, 131);
-    color: hsl(219, 29%, 14%);
-    text-align: center;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.attribution a {
-    color: blue;
-    text-decoration: none;
-}
-
-.attribution a:hover {
-    text-decoration: none;
-    color: aqua;
 }
